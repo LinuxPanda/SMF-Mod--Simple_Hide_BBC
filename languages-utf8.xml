@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+
+	<id>Neo_TE:Simple_Hide_BBC</id>
+	<version>1.0</version>
+
+	<file name="$languagedir/Modifications.english-utf8.php" error="skip">
+		<operation>
+			<search position="end" />
+			<add><![CDATA[
+// Start Simple Hide BBC
+$txt['bbc_hide'] = 'Hide content from guests';
+$txt['bbc_hide_warning'] = 'Sorry, only registered users can see this content. ';
+$txt['bbc_hide_login'] = 'Please <a href="' . $scripturl . '?action=login">Login</a> or <a href="' . $scripturl . '?action=register">Register</a>.';
+// End Simple Hide BBC
+]]></add>
+		</operation>
+	</file>
+
+</modification>

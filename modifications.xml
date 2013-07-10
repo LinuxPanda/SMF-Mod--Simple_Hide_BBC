@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+
+	<id>Neo_TE:Simple_Hide_BBC</id>
+	<version>1.0</version>
+
+	<file name="$sourcedir/Subs.php">
+		<operation>
+			<search position="before"><![CDATA[
+			array(
+				'tag' => 'green',
+				'before' => '<span style="color: green;" class="bbc_color">',
+				'after' => '</span>',
+			),]]></search>
+
+			<add><![CDATA[
+			array(
+				'tag' => 'hide',
+				'type' => 'unparsed_content',
+				'content' => ($user_info['is_guest'] ? '<span style="color: red;" class="bbc_color">' . $txt['bbc_hide_warning'] . '</span>' . $txt['bbc_hide_login'] : '$1'),
+			),]]></add>
+		</operation>
+	</file>
+
+	<file name="$sourcedir/Subs-Editor.php">
+		<operation>
+			<search position="before"><![CDATA[
+			array(
+				'image' => 'code',
+				'code' => 'code',
+				'before' => '[code]',
+				'after' => '[/code]',
+				'description' => $txt['bbc_code']
+			),]]></search>
+
+			<add><![CDATA[
+			array(
+				'image' => 'hide',
+				'code' => 'hide',
+				'before' => '[hide]',
+				'after' => '[/hide]',
+				'description' => $txt['bbc_hide']
+			),]]></add>
+		</operation>
+	</file>
+
+</modification>
