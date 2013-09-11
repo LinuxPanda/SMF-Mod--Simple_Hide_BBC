@@ -2,7 +2,7 @@ Simple Hide BBC
 ===============
 This mod adds a "hide" BBC which can be used to hide a post or a particular content in post.
 
-*This is a "modification package" for Simple Machines Forum 2.0.x*
+> This is a "modification package" for Simple Machines Forum 2.0.x*
 
 Version
 -------
