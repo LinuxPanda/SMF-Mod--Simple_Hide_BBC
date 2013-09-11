@@ -52,5 +52,5 @@ If you need support with this mod, please use the [url]Support Thread for this M
 
 [hr][center][color=purple][size=14pt][b]License[/b][/size][/color]
 
-This is free and unencumbered public domain software. For more information, see [url=http://unlicense.org/]http://unlicense.org/[/url] or the accompanying UNLICENSE file.
+This is free and unencumbered mod released into the public domain. For more information, see [url=http://unlicense.org/]http://unlicense.org/[/url] or the accompanying UNLICENSE file.
 [/center]
