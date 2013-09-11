@@ -51,6 +51,5 @@ If you need support with this mod, please use the [url]Support Thread for this M
 
 [hr]
 [center]
-[url=http://creativecommons.org/licenses/by-sa/3.0/deed.en_US][img]http://i.creativecommons.org/l/by-sa/3.0/88x31.png[/img][/url]
-This work is licensed under a [url=http://creativecommons.org/licenses/by-sa/3.0/deed.en_US]Creative Commons Attribution-ShareAlike 3.0 Unported License[/url].
+This is free and unencumbered public domain software. For more information, see [url=http://unlicense.org/]http://unlicense.org/[/url] or the accompanying UNLICENSE file.
 [/center]
