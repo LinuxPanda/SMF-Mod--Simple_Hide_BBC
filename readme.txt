@@ -37,6 +37,7 @@ Tested on fresh installation of 2.0.4.
 [color=purple][size=12pt][b]Supported Languages[/b][/size][/color]
 [list]
 [li]English[/li]
+[li]Dutch[/li]
 [/list]
 Translations to other languages are welcome. Please post them in this [url]Support Thread for this Mod[/url].
 
@@ -49,7 +50,7 @@ If you need support with this mod, please use the [url]Support Thread for this M
 [b]v1.0[/b] - Initial release.
 
 
-[hr]
-[center]
+[hr][center][color=purple][size=14pt][b]License[/b][/size][/color]
+
 This is free and unencumbered public domain software. For more information, see [url=http://unlicense.org/]http://unlicense.org/[/url] or the accompanying UNLICENSE file.
 [/center]

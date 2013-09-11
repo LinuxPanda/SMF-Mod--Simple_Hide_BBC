@@ -19,4 +19,17 @@ $txt['bbc_hide_login'] = 'Please <a href="' . $scripturl . '?action=login">Login
 		</operation>
 	</file>
 
+	<file name="$languagedir/Modifications.dutch.php">
+		<operation>
+			<search position="end" />
+			<add><![CDATA[
+// Start Simple Hide BBC
+$txt['bbc_hide'] = 'Inhoud voor Gastgebruikers verbergen';
+$txt['bbc_hide_warning'] = 'Sorry, inhoud is alleen zichtbaar voor geregistreerde gebruikers. ';
+$txt['bbc_hide_login'] = 'A.u.b <a href="' . $scripturl . '?action=login">Inloggen</a> of <a href="' . $scripturl . '?action=register">Registreren</a>.';
+// End Simple Hide BBC
+]]></add>
+		</operation>
+	</file>
+
 </modification>
