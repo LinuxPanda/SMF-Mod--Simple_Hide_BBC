@@ -19,7 +19,7 @@ $txt['bbc_hide_login'] = 'Please <a href="' . $scripturl . '?action=login">Login
 		</operation>
 	</file>
 
-	<file name="$languagedir/Modifications.dutch.php">
+	<file name="$languagedir/Modifications.dutch.php" error="skip">
 		<operation>
 			<search position="end" />
 			<add><![CDATA[
